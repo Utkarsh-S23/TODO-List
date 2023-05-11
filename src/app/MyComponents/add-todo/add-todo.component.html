@@ -1,0 +1,19 @@
+<div class="my-3 offset-1">
+  <br>
+<h4>&nbsp; Add a Todo :</h4>
+<br>
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <img src="https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
+      <label for="title">&nbsp;Todo Title_</label>
+      <input type="text"placeholder="Enter todo title" [(ngModel)]="title" class="form-control" id="title" name="title" aria-describedby="emailHelp"> 
+    </div>
+    <div class="form-group">
+      <img src="https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
+      <label for="desc">&nbsp;Todo Description_</label>
+      <input type="text" class="form-control" name="desc" id="desc"placeholder="Enter todo description" [(ngModel)]="desc">
+    </div> 
+    <button type="submit" class="btn btn-sm btn-primary">&nbsp;Add Todo</button>
+    <br>
+    <br>
+  </form></div>
